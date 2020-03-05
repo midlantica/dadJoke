@@ -1,0 +1,21 @@
+:root {
+  /* HSL */
+  --black:       hsla(71%, 100%, 3%, 1);
+  --brick:       hsla(96%, 29%, 29%, 1);
+  --paleGreen:   hsla(124%, 14%, 48%, 1);
+  --paleAqua:    hsla(146%, 100%, 92%, 1);
+  --royalPurple: hsla(71%, 80%, 55%, 1);
+
+  /* RGB */
+  --green-dk:     rgba(14, 17, 0, 1);
+  --green-md:     rgba(70, 96, 53, 1);
+  --green-lt:     rgba(106, 140, 108, 1);
+  --green-pale:   rgba(216, 255, 233, 1);
+  --green-bright: rgba(198, 232, 48, 1);
+
+  --darkest: var(--green-dk);
+  --head: var(--green-md);
+  --text: var(--green-dk);
+  --accent: var(--green-bright);
+  --pale: var(--green-pale);
+}
